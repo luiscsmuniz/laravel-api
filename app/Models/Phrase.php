@@ -10,6 +10,6 @@ class Phrase extends Model
     use HasFactory;
 
     protected $fillable = [
-        'phrase',
+        'phrase', 'user'
     ];
 }
